@@ -1,0 +1,61 @@
+.container{
+    display: grid;
+    background-color: white;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 73%;
+    margin-left: 16.85%; 
+    grid-column: 2/4;
+}
+.header{
+    width: 100%;
+    height:660px;
+    grid-column: 1/4;
+    background-image: url("../Img/the100.jpg");
+    color:white;    
+    margin-top: -1%;
+    background-position: center;
+}
+body{
+    width: 100%;
+    height: 600px;
+    grid-column: 1/4;
+    background-image: url("../Img/f2.jpg");
+    margin-left: 0%;
+}
+.menu{ overflow: hidden;
+    grid-column: 1/4;;
+    color:black;
+    background-color:darkcyan;
+    font-family: fantasy;
+}
+.menu li{
+    float: left;
+    display: block;
+    color: rgb(155, 5, 155);
+    text-align: center;
+    padding: 0px 20px 20px 0px;
+    text-decoration: none;
+}
+h4{
+    background-color: yellowgreen;
+}
+footer{
+    width: 100%;
+    grid-column: 1/4;
+    background-color: black;
+    color: rgb(155, 5, 155)
+
+}
+.resenia{color:black;
+    text-align: center;
+    margin-top: -19px;
+    width: 160%;
+    margin-left: 100px;
+    padding: 0px 20px 20px 0px; 
+    background-color: purple;
+    grid-row: 2;
+}
+.footer{
+    text-align: center;
+}
